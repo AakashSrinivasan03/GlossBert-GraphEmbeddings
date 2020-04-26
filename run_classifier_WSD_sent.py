@@ -103,9 +103,9 @@ class WSD_sent_Processor(DataProcessor):
     def _create_examples(self, lines, set_type):
         """Creates examples for the training and dev sets."""
         examples = []
-        for (i, line) in enumerate(lines):
-            if set_type == 'train' and i >=100: break ###############
-            if set_type == 'dev' and i>=100: break ##################
+        for (i, line) in enumerate(lines): #########################
+            ###if set_type == 'train' and i >=100: break ###############
+            ###if set_type == 'dev' and i>=100: break ##################
             guid = "%s-%s" % (set_type, i)
             text_a = str(line[2])
             text_b = str(line[3])
@@ -676,7 +676,7 @@ def main():
     if args.do_test and (args.local_rank == -1 or torch.distributed.get_rank() == 0):
         eval_examples = processor.get_dev_examples(args.eval_data_dir)
         eval_features = convert_examples_to_features(
-            eval_examples, label_list, args.max_seq_length, tokenizer, output_mode)
+            eval_examples, label_list, args.max_seq_length, tokenizer, output_mode,node_2_idx)
         logger.info("***** Running evaluation *****")
         logger.info("  Num examples = %d", len(eval_examples))
         logger.info("  Batch size = %d", args.eval_batch_size)
