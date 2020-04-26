@@ -119,7 +119,7 @@ class WSD_sent_Processor(DataProcessor):
     def _create_examples(self, lines, set_type):
         """Creates examples for the training and dev sets."""
         examples = []
-        for (i, line) in enumerate(lines[:10]): #########################
+        for (i, line) in enumerate(lines): ###
             ###if set_type == 'train' and i >=100: break ###############
             ###if set_type == 'dev' and i>=100: break ##################
             guid = "%s-%s" % (set_type, i)
