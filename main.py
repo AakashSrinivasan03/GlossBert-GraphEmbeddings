@@ -62,7 +62,7 @@ class DataProcessor(object):
     def get_dev_examples(self, data_dir):
         """Gets a collection of `InputExample`s for the dev set."""
         raise NotImplementedError()
-    
+
     def get_test_examples(self, data_dir):
         """Gets a collection of `InputExample`s for the test set."""
         raise NotImplementedError()
@@ -70,7 +70,7 @@ class DataProcessor(object):
     def get_labels(self):
         """Gets the list of labels for this data set."""
         raise NotImplementedError()
-    
+
     @classmethod
     def _read_tsv(cls, input_file, quotechar=None):
         """Reads a tab separated value file."""
@@ -86,27 +86,34 @@ class WSD_sent_Processor(DataProcessor):
 
     def get_train_examples(self, data_dir):
         """See base class."""
-        train_data = pd.read_csv(data_dir, sep="\t", na_filter=False).values
+        #train_data = pd.read_csv(data_dir, sep="\t", na_filter=False).values
+        train_data = np.load(data_dir, allow_pickle=True)
+        train_data = train_data[()]
         return self._create_examples(train_data, "train")
 
     def get_dev_examples(self, data_dir):
         """See base class."""
-        dev_data = pd.read_csv(data_dir, sep="\t", na_filter=False).values
+        #dev_data = pd.read_csv(data_dir, sep="\t", na_filter=False).values
+        dev_data = np.load(data_dir, allow_pickle=True)
+        dev_data = dev_data[()]
         return self._create_examples(dev_data, "dev")
 
     def get_labels(self):
         """See base class."""
         return [0, 1]
 
-    def _create_examples(self, lines, set_type): # TODO: fix
+    def _create_examples(self, data, set_type): # TODO: fix
         """Creates examples for the training and dev sets."""
         examples = []
-        for (i, line) in enumerate(lines):
+        length = data['embeddings'].shape[0]
+        for i in range(length):
             guid = "%s-%s" % (set_type, i)
-            
+
             # TODO: float32 or float16 or float64?
-            pooled_output = np.array(line[:-1], dtype=np.float32)
-            label = int(line[-1])
+            pooled_output = data['embeddings'][i]
+            label = int(data['labels'][i])
+            # pooled_output = np.array(line[:-1], dtype=np.float32)
+            # label = int(line[-1])
             if i%1000==0:
                 print(i)
                 # print("guid=",guid)
@@ -198,14 +205,14 @@ def main():
                         type=int,
                         default=-1,
                         help="local_rank for distributed training on gpus")
-    parser.add_argument('--seed', 
-                        type=int, 
+    parser.add_argument('--seed',
+                        type=int,
                         default=42,
                         help="random seed for initialization")
     parser.add_argument('--gradient_accumulation_steps',
                         type=int,
                         default=1,
-                        help="Number of updates steps to accumualte before performing a backward/update pass.")                       
+                        help="Number of updates steps to accumualte before performing a backward/update pass.")
     # parser.add_argument('--fp16',
     #                     action='store_true',
     #                     help="Whether to use 16-bit float precision instead of 32-bit")
@@ -247,7 +254,7 @@ def main():
     torch.manual_seed(args.seed)
     if n_gpu > 0:
         torch.cuda.manual_seed_all(args.seed)
-    
+
     if not args.do_train and not args.do_test:
         raise ValueError("At least one of `do_train` or `do_test` must be True.")
     if args.do_train:
@@ -288,10 +295,10 @@ def main():
 
     # Prepare model
     cache_dir = args.cache_dir if args.cache_dir else os.path.join(str(PYTORCH_PRETRAINED_BERT_CACHE), 'distributed_{}'.format(args.local_rank))
-    
+
     config = BertConfig.from_json_file(args.config)
     model = BertForSequenceClassification(config, 2)
- 
+
     # if args.fp16:
     #     model.half()
     model.to(device)
@@ -306,7 +313,7 @@ def main():
     elif n_gpu > 1:
         model = torch.nn.DataParallel(model)
 
-    
+
     # Prepare optimizer
     param_optimizer = list(model.named_parameters())
     no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
@@ -370,7 +377,7 @@ def main():
         logger.info("***** Running evaluation *****")
         logger.info("  Num examples = %d", len(eval_examples))
         logger.info("  Batch size = %d", args.eval_batch_size)
-        
+
         all_inputs = torch.tensor([f.bert_pooled_output for f in train_examples], dtype=torch.float)
         labels = torch.tensor([f.label for f in train_examples], dtype=torch.long)
 
@@ -434,7 +441,7 @@ def main():
                     optimizer.step()
                     optimizer.zero_grad()
                     global_step += 1
-                
+
 
             # Save a trained model, configuration and tokenizer
             model_to_save = model.module if hasattr(model, 'module') else model  # Only save the model it-self
@@ -483,7 +490,7 @@ def main():
                         # elif output_mode == "regression":
                         #     loss_fct = MSELoss()
                         #     tmp_eval_loss = loss_fct(logits.view(-1), labels.view(-1))
-                        
+
                         eval_loss += tmp_eval_loss.mean().item()
                         eval_accuracy += tmp_eval_accuracy
                         nb_eval_examples += inputs.size(0)
@@ -559,7 +566,7 @@ def main():
                 # elif output_mode == "regression":
                 #     loss_fct = MSELoss()
                 #     tmp_eval_loss = loss_fct(logits.view(-1), labels.view(-1))
-                
+
                 eval_loss += tmp_eval_loss.mean().item()
                 eval_accuracy += tmp_eval_accuracy
                 nb_eval_examples += inputs.size(0)
