@@ -4,6 +4,6 @@ Training_Corpora/
 v_env/
 Evaluation_Datasets/
 target/
-embeddings/
+#embeddings/
 __pycache__/
 wordnet/
