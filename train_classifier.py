@@ -119,7 +119,7 @@ def main():
 		probs = nn.Softmax(dim=-1)(model(embeddings)).cpu().detach().numpy()
 		pred = (probs[:,1]>=0.5).astype(int)
 		truth = all_labels.astype(int)
-		
+		print(truth.shape)
 		print("accuracy",np.sum(pred==truth)*1.0/pred.shape[0])
 		write_results(args.out_results_dir,args.dataset,probs)
 	if(args.do_eval):

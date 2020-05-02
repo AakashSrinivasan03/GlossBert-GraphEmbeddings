@@ -531,10 +531,10 @@ def main():
         batch = tuple(t.to(device) for t in batch)
         input_ids, input_mask, segment_ids, label_ids = batch
 
-        sentence_embeddings = model(input_ids=input_ids, token_type_ids=segment_ids, attention_mask=input_mask, labels=None)
+        sentence_embeddings = model(input_ids=input_ids, token_type_ids=segment_ids, attention_mask=input_mask, labels=None).cpu()
         h = l + sentence_embeddings.shape[0]
         contextualized_embeddings[l:h] = sentence_embeddings
-        labels[l:h] = label_ids
+        labels[l:h] = label_ids.cpu()
         l = h
 
 
