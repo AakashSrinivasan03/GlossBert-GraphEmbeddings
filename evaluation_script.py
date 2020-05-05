@@ -3,25 +3,7 @@ import numpy as np
 import argparse
 import os
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset",
-                        default=None,
-                        type=str,
-                        required=True,
-                        choices=['senseval2', 'senseval3', 'semeval2007', 'semeval2013', 'semeval2015', 'ALL'],
-                        help="Dataset name")
-    parser.add_argument("--input_file",
-                        default=None,
-                        type=str,
-                        required=True,
-                        help="Input file of results")
-    
-    args = parser.parse_args()
-
-
-    dataset = args.dataset
-    input_file_name = args.input_file
+def evaluate_results(dataset,input_file_name):
     
     train_file_name = './Evaluation_Datasets/'+dataset+'/'+dataset+'.csv'
     train_data = pd.read_csv(train_file_name,sep="\t",na_filter=False).values
@@ -89,14 +71,5 @@ def main():
     print("Precision",P)
     print("Recall",R)
     print("F1-score",F)
+    return F
 
-
-
-
-
-
-            
-
-
-if __name__ == "__main__":
-    main()
