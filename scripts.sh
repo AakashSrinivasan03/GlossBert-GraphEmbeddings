@@ -32,6 +32,18 @@ test_gloss(){
 		--seed $seed ;
 }
 
+
+train_fc(){
+	python train_classifier.py \
+		--embeddings_data_dir combined_bert.npy   \
+		--dataset semcor \
+		--do_train \
+ 		--out_results_dir results/graph_bert_model  \
+ 		--batch_size 128 \
+ 		--num_epochs 10  \
+ 		--graph_embeddings_loc embeddings/deepwalk_emb_3.vec 
+}
+
 clean(){
 	rm -r results/$seed
 }
@@ -47,6 +59,9 @@ else
 	elif [ $1 = "test_gloss" ]
 	then
 		test_gloss
+	elif [ $1 = "train_fc" ]
+	then
+		train_fc
 	elif [ $1 = "clean" ]
 	then
 		clean
