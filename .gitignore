@@ -8,3 +8,4 @@ embeddings/
 __pycache__/
 wordnet/
 .DS_Store
+data

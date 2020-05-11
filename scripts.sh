@@ -14,7 +14,7 @@ train_gloss(){
 		--eval_batch_size 128 \
 		--learning_rate 2e-5 \
 		--num_train_epochs 6 \
-		--seed $seed ; 
+		--seed $seed ;
 }
 
 test_gloss(){
@@ -33,9 +33,21 @@ test_gloss(){
 }
 
 
-train_fc(){
+train_fc_dev(){
 	python train_classifier.py \
-		--embeddings_data_dir combined_bert.npy   \
+		--embeddings_data_dir  embeddings/semeval2007.npy \
+		--dataset semcor \
+		--do_train \
+ 		--out_results_dir results/graph_bert_model  \
+ 		--batch_size 128 \
+ 		--num_epochs 10  \
+ 		--graph_embeddings_loc embeddings/deepwalk_emb_3.vec 
+}
+
+
+train_fc_dev(){
+	python train_classifier.py \
+		--embeddings_data_dir  combined.npy \
 		--dataset semcor \
 		--do_train \
  		--out_results_dir results/graph_bert_model  \
