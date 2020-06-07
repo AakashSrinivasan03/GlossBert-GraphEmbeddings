@@ -1,0 +1,460 @@
+Word        : report
+Sentence    : Your Oct. 6 editorial `` The Ill Homeless `` referred to research by us and six of our colleagues that was reported in the Sept. 8 issue of the Journal of the American Medical Association .
+Prediction 1: to give an account or representation of in words
+Gold       1: announce as the result of an investigation or experience or finding
+
+Word        : discover
+Sentence    : Your comments implied we had discovered that the `` principal cause `` of homelessness is to be found in the large numbers of mentally ill and substance-abusing people in the homeless population .
+Prediction 1: discover or determine the existence, presence, or fact of
+Gold       1: get to know or become aware of, usually accidentally
+
+//CLOSE
+Word        : make
+Sentence    : We have made no such statement .
+Prediction 1: engage in
+Gold       1: perform or carry out
+
+//CLOSE
+Word        : statement
+Sentence    : We have made no such statement .
+Prediction 1: a message that is stated or declared; a communication (oral or written) setting forth particulars or facts etc
+Gold       1: the act of affirming or asserting or stating something
+
+Word        : quote
+Sentence    : In quoting from our research you emphasized the high prevalance of mental illness and alcoholism .
+Prediction 1: repeat a passage from
+Gold       1: refer to for illustration or proof
+
+//WRONG GOLD?
+Word        : necessity
+Sentence    : Homeless people not only lack safety , privacy and shelter , they also lack the elementary necessities of nutrition , cleanliness and basic health care .
+Prediction 1: the condition of being essential or indispensable
+Gold       1: anything indispensable
+
+//WRONG GOLD?
+Word        : shelter
+Sentence    : In a recent report , the Institute of Medicine pointed out that certain health problems may predispose a person to homelessness , others may be a consequence of it , and a third category is composed of disorders whose treatment is difficult or impossible if a person lacks adequate shelter .
+Prediction 1: a structure that provides privacy and protection from danger
+Gold       1: the condition of being protected
+
+Word        : defy
+Sentence    : The interactions between health and homelessness are complex , defying sweeping generalizations as to `` cause `` or `` effect . ``
+Prediction 1: resist or confront with resistance
+Gold       1: elude, especially in a baffling way
+
+//CLOSE
+Word        : develop
+Sentence    : This will require us to develop a much more sophisticated understanding of the dynamics of homelessness than we currently possess , an understanding that can be developed only through careful study and research .
+Prediction 1: work out
+Gold       1: gain through experience
+
+//CLOSE?
+Word        : study
+Sentence    : The study shows that nearly 40 % of the homeless population is made up of women and children and that only 25 % of the homeless exhibits some combination of drug , alcohol and mental problems .
+Prediction 1: a detailed critical inspection
+Gold       1: a written document describing the findings of some individual or group
+
+//CLOSE?
+Word        : show
+Sentence    : The study shows that nearly 40 % of the homeless population is made up of women and children and that only 25 % of the homeless exhibits some combination of drug , alcohol and mental problems .
+Prediction 1: provide evidence for
+Gold       1: establish the validity of something, as by an example, explanation or experiment
+
+Word        : result
+Sentence    : According to Dr. Wright , homelessness is `` simultaneously a housing problem , an employment problem , a demographic problem , a problem of social disaffiliation , a mental health problem , a family violence problem , a problem created by the cutbacks in social welfare spending , a problem resulting from the decay of the traditional nuclear family , and a problem intimately connected to the recent increase in the number of persons living below the poverty level . ``
+Prediction 1: issue or terminate (in a specified way, state, etc.); end
+Gold       1: have as a result or residue
+
+Word        : live
+Sentence    : According to Dr. Wright , homelessness is `` simultaneously a housing problem , an employment problem , a demographic problem , a problem of social disaffiliation , a mental health problem , a family violence problem , a problem created by the cutbacks in social welfare spending , a problem resulting from the decay of the traditional nuclear family , and a problem intimately connected to the recent increase in the number of persons living below the poverty level . ``
+Prediction 1: support oneself
+Gold       1: lead a certain kind of life; live in a certain style
+
+Word        : view
+Sentence    : You dismiss as `` sentimental `` the view that the reduction of federal housing-assistance programs by 77 % might have played a significant role in the increased number of men and women sleeping on our city streets during the Reagan-Bush years .
+Prediction 1: a personal belief or judgment that is not founded on proof or certainty
+Gold       1: a way of regarding situations or topics etc.
+
+Word        : stop
+Sentence    : Your research stopped when a convenient assertion could be made .
+Prediction 1: put an end to a state or an activity
+Gold       1: have an end, in a temporal, spatial, or quantitative sense; either spatial or metaphorical
+
+Word        : make
+Sentence    : Your research stopped when a convenient assertion could be made .
+Prediction 1: engage in
+Gold       1: perform or carry out
+
+Word        : support
+Sentence    : Of the approximately 200 sponsors of the recent march in Washington for the homeless , you chose to cite such groups as the National Association of Home Builders and the International Union of Bricklayers and Allied Craftsmen , insinuating that the march got its major support from self-serving groups that `` know a good thing when they see it , `` and that the crusade was based on greed or the profit motive .
+Prediction 1: something providing immaterial assistance to a person or cause or interest
+Gold       1: financial resources provided to make some project possible
+
+Word        : know
+Sentence    : Of the approximately 200 sponsors of the recent march in Washington for the homeless , you chose to cite such groups as the National Association of Home Builders and the International Union of Bricklayers and Allied Craftsmen , insinuating that the march got its major support from self-serving groups that `` know a good thing when they see it , `` and that the crusade was based on greed or the profit motive .
+Prediction 1: be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about
+Gold       1: be able to distinguish, recognize as being different
+
+Word        : thing
+Sentence    : Of the approximately 200 sponsors of the recent march in Washington for the homeless , you chose to cite such groups as the National Association of Home Builders and the International Union of Bricklayers and Allied Craftsmen , insinuating that the march got its major support from self-serving groups that `` know a good thing when they see it , `` and that the crusade was based on greed or the profit motive .
+Prediction 1: a special situation
+Gold       1: a vaguely specified concern
+
+Word        : see
+Sentence    : Of the approximately 200 sponsors of the recent march in Washington for the homeless , you chose to cite such groups as the National Association of Home Builders and the International Union of Bricklayers and Allied Craftsmen , insinuating that the march got its major support from self-serving groups that `` know a good thing when they see it , `` and that the crusade was based on greed or the profit motive .
+Prediction 1: perceive (an idea or situation) mentally
+Gold       1: perceive or be contemporaneous with
+
+Word        : put
+Sentence    : Choose 203 business executives , including , perhaps , someone from your own staff , and put them out on the streets , to be deprived for one month of their homes , families and income .
+Prediction 1: cause to be in a certain state; cause to be in a certain relation
+Gold       1: put into a certain place or abstract location
+
+Word        : find
+Sentence    : I would predict that within a short time most of them would find Thunderbird a satisfactory substitute for Chivas Regal and that their `` normal `` phobias , anxieties , depressions and substance abuse would increase dramatically .
+Prediction 1: discover or determine the existence, presence, or fact of
+Gold       1: come to believe on the basis of emotion, intuitions, or indefinite grounds
+
+Word        : begin
+Sentence    : `` Feeding Frenzy `` ( Henry Holt , 326 pages , $ 19.95 ) , a highly detailed account of the Wedtech scandal , begins on a reassuring note .
+Prediction 1: have a beginning, in a temporal, spatial, or evaluative sense
+Gold       1: have a beginning characterized in some specified way
+
+Word        : give
+Sentence    : Right up front in the preface , co-author William Sternberg gives us an example of his own integrity .
+Prediction 1: be the cause or source of
+Gold       1: convey or reveal information
+
+Word        : tell
+Sentence    : When offered a free trip from the Bronx , Wedtech 's home , to Washington , D.C. , by one of Wedtech 's principals , he tells the reader , `` mindful of accepting anything of value from those I was writing about , I declined . ``
+Prediction 1: let something be known
+Gold       1: narrate or give a detailed account of
+
+Word        : answer
+Sentence    : Any question as to why an author would believe this plaintive , high-minded note of assurance is necessary is answered by reading this book about sticky fingers and sweaty scammers .
+Prediction 1: give the correct answer or solution to
+Gold       1: understand the meaning of
+
+Word        : travel
+Sentence    : Bribe by bribe , Mr. Sternberg and his co-author , Matthew C. Harrison Jr. , lead us along the path Wedtech traveled , from its inception as a small manufacturing company to the status of full-fledged defense contractor , entrusted with the task of producing vital equipment for the Army and Navy .
+Prediction 1: change location; move, travel, or proceed, also metaphorically
+Gold       1: travel upon or across
+
+Word        : start
+Sentence    : Although started in 1965 , Wedtech did n't really get rolling until 1975 , when Mr. Neuberger discovered the federal government 's Section 8 A minority business program .
+Prediction 1: take the first step or steps in carrying out an action
+Gold       1: bring into being
+
+Word        : get
+Sentence    : Although started in 1965 , Wedtech did n't really get rolling until 1975 , when Mr. Neuberger discovered the federal government 's Section 8 A minority business program .
+Prediction 1: enter or assume a certain state or condition
+Gold       1: take the first step or steps in carrying out an action
+
+Word        : discover
+Sentence    : Although started in 1965 , Wedtech did n't really get rolling until 1975 , when Mr. Neuberger discovered the federal government 's Section 8 A minority business program .
+Prediction 1: discover or determine the existence, presence, or fact of
+Gold       1: find unexpectedly
+
+Word        : have
+Sentence    : The two partners merely had to falsify the true ownership of the corporation .
+Prediction 1: have ownership or possession of
+Gold       1: cause to do; cause to act in a specified manner
+
+Word        : falsify
+Sentence    : The two partners merely had to falsify the true ownership of the corporation .
+Prediction 1: make false by mutilation or addition; as of a message or story
+Gold       1: tamper, with the purpose of deception
+
+Word        : locate
+Sentence    : Besides being a `` minority-owned company `` Wedtech was located in the South Bronx , a blighted area , made famous by Jimmy Carter in his 1976 presidential campaign .
+Prediction 1: determine or indicate the place, site, or limits of, as if by an instrument or by a survey
+Gold       1: assign a location to
+
+Word        : use
+Sentence    : The company plugged itself right into Carter campaign rhetoric about rebuilding the South Bronx and kept using the minority -- South Bronx angle through the Reagan '80s .
+Prediction 1: put into service; make work or employ for a particular purpose or for its inherent or natural purpose
+Gold       1: seek or achieve an end by using to one's advantage
+
+Word        : start
+Sentence    : Starting with Congressman Mario Biaggi now serving a jail sentence , the company began a career of bribing federal , state and local public officials and those close to public officials , right up to and including E. Robert Wallach , close friend and adviser to former Attorney General Ed Meese .
+Prediction 1: have a beginning characterized in some specified way
+Gold       1: take the first step or steps in carrying out an action
+
+Word        : make
+Sentence    : It made ample use of the modern techniques of influence peddling , retaining politically connected `` respectable `` law firms , investment bankers and political consultants , including Reagan confidant Lyn Nofzinger .
+Prediction 1: perform or carry out
+Gold       1: engage in
+
+Word        : use
+Sentence    : It made ample use of the modern techniques of influence peddling , retaining politically connected `` respectable `` law firms , investment bankers and political consultants , including Reagan confidant Lyn Nofzinger .
+Prediction 1: a particular service
+Gold       1: the act of using
+
+Word        : find
+Sentence    : If you were not an effective crook , you found yourself out in the cold , a fate that eventually befell Mr. Mariotta , the firm 's semiliterate `` minority `` person .
+Prediction 1: perceive or be contemporaneous with
+Gold       1: perceive oneself to be in a certain condition or place
+
+Word        : show
+Sentence    : None of the scams show much ingenuity : Auditors found crookery the first day on the job .
+Prediction 1: establish the validity of something, as by an example, explanation or experiment
+Gold       1: provide evidence for
+
+Word        : ingenuity
+Sentence    : None of the scams show much ingenuity : Auditors found crookery the first day on the job .
+Prediction 1: the power of creative imagination
+Gold       1: the property of being ingenious
+
+Word        : find
+Sentence    : None of the scams show much ingenuity : Auditors found crookery the first day on the job .
+Prediction 1: come upon, as if by accident; meet with
+Gold       1: discover or determine the existence, presence, or fact of
+
+Word        : wrestle
+Sentence    : Among the lot of them , not one is wrestling with good and evil , or especially intelligent or even temporarily insane .
+Prediction 1: engage in a wrestling match
+Gold       1: engage in deep thought, consideration, or debate
+
+Word        : change
+Sentence    : The one character at least somewhat interesting was Irving Louis Lobsenz , a pediatrician who changed his name to Rusty Kent London and became a master gambler and author of a book on blackjack .
+Prediction 1: cause to change; make different; cause a transformation
+Gold       1: exchange or replace with another, usually of the same kind or category
+
+Word        : scandal
+Sentence    : Absorbed in doling out `` Feeding Frenzy 's `` tidbits , the authors gloss over the root causes of Wedtech , namely the Section 8 A federal program under whose auspices the scandal took place .
+Prediction 1: disgraceful gossip about the private lives of other people
+Gold       1: a disgraceful event
+
+Word        : say
+Sentence    : They do at least come around to saying that the courts might want to end `` rigid affirmative action programs . ``
+Prediction 1: report or maintain
+Gold       1: state as one's opinion or judgement; declare
+
+Word        : gold
+Sentence    : Programs like Section 8 A are a little like leaving gold in the street and then expressing surprise when thieves walk by to scoop it up .
+Prediction 1: coins made of gold
+Gold       1: a soft yellow malleable ductile (trivalent and univalent) metallic element; occurs mainly as nuggets in rocks and alluvial deposits; does not react with most chemicals but is attacked by chlorine and aqua regia
+
+Word        : one
+Sentence    : Numerous other scandals , among them the ones at HUD , have the same characteristics as Wedtech .
+Prediction 1: used of a single unit or thing; not two or more
+Gold       1: a single person or thing
+
+Word        : clue
+Sentence    : `` Feeding Frenzy `` does provide a few clues .
+Prediction 1: a slight indication
+Gold       1: evidence that helps to solve a problem
+
+Word        : belong
+Sentence    : In and around all levels of government in the U.S. are groups of people who can best be described as belonging to a political insider commercial party .
+Prediction 1: be a member, adherent, inhabitant, etc. (of a group, organization, or place)
+Gold       1: be rightly classified in a class or category
+
+Word        : wealth
+Sentence    : They know that whenever government is redistributing wealth , regulating commerce or maintaining a large defense establishment , there is big money to be made in influencing , brokering or selling the processes and decisions of government .
+Prediction 1: the state of being rich and affluent; having a plentiful supply of material goods and money
+Gold       1: an abundance of material possessions and resources
+
+Word        : maintain
+Sentence    : They know that whenever government is redistributing wealth , regulating commerce or maintaining a large defense establishment , there is big money to be made in influencing , brokering or selling the processes and decisions of government .
+Prediction 1: keep in safety and protect from harm, decay, loss, or destruction
+Gold       1: supply with necessities and support
+
+Word        : money
+Sentence    : They know that whenever government is redistributing wealth , regulating commerce or maintaining a large defense establishment , there is big money to be made in influencing , brokering or selling the processes and decisions of government .
+Prediction 1: the most common medium of exchange; functions as legal tender
+Gold       1: wealth reckoned in terms of money
+
+Word        : decision
+Sentence    : They know that whenever government is redistributing wealth , regulating commerce or maintaining a large defense establishment , there is big money to be made in influencing , brokering or selling the processes and decisions of government .
+Prediction 1: the act of making up your mind about something
+Gold       1: a position or opinion or judgment reached after consideration
+
+Word        : have
+Sentence    : They are our version of the East bloc 's Nomenklatura and they have absolutely no wish to see anything change .
+Prediction 1: have or possess, either in a concrete or an abstract sense
+Gold       1: go through (mental or physical states or experiences)
+
+Word        : line
+Sentence    : How many government programs and policies exist because they line the pockets of political insiders ?
+Prediction 1: be in line with; form a line along
+Gold       1: a mark that is long relative to its width
+
+Word        : reach
+Sentence    : I had to reach back to French 101 when the monsieur avec clipboard leaned over my shoulder during the coffee phase of dinner and asked whether I wanted to ride in a montgolfiere .
+Prediction 1: move forward or upward in order to touch; also in a metaphorical sense
+Gold       1: to extend as far as
+
+Word        : read
+Sentence    : I was a last-minute read interloping attendee at a French journalism convention and so far the festivities had been taken up entirely by eating , drinking , smoking , sleeping and drinking .
+Prediction 1: interpret something that is written or printed
+Gold       1: interpret something in a certain way; convey a particular meaning or impression
+
+Word        : take_up
+Sentence    : I was a last-minute read interloping attendee at a French journalism convention and so far the festivities had been taken up entirely by eating , drinking , smoking , sleeping and drinking .
+Prediction 1: pursue or resume
+Gold       1: take up time or space
+
+Word        : represent
+Sentence    : The man with the clipboard represented a halfhearted attempt to introduce a bit of les sportif into our itinerary .
+Prediction 1: express indirectly by an image, form, or model; be a symbol
+Gold       1: form or compose
+
+Word        : introduce
+Sentence    : The man with the clipboard represented a halfhearted attempt to introduce a bit of les sportif into our itinerary .
+Prediction 1: introduce
+Gold       1: bring in or establish in a new place or environment
+
+Word        : come_to
+Sentence    : But as the French embody a Zen-like state of blase when it comes to athletics try finding a Nautilus machine in Paris , my fellow conventioners were having none of it .
+Prediction 1: be relevant to
+Gold       1: cause to experience suddenly
+
+Word        : find
+Sentence    : But as the French embody a Zen-like state of blase when it comes to athletics try finding a Nautilus machine in Paris , my fellow conventioners were having none of it .
+Prediction 1: get something or somebody for a specific purpose
+Gold       1: discover or determine the existence, presence, or fact of
+
+Word        : have
+Sentence    : But as the French embody a Zen-like state of blase when it comes to athletics try finding a Nautilus machine in Paris , my fellow conventioners were having none of it .
+Prediction 1: go through (mental or physical states or experiences)
+Gold       1: receive willingly something given or offered
+
+Word        : win
+Sentence    : Back in the U.S.A. this kind of chi-chi airborne activity wins heartwarmingly covetous responses .
+Prediction 1: attain success or reach a desired goal
+Gold       1: obtain advantages, such as points, etc.
+
+Word        : seem
+Sentence    : Americans it seems have followed Malcolm Forbes 's hot-air lead and taken to ballooning in a heady way .
+Prediction 1: give a certain impression or have a certain outward aspect
+Gold       1: seem to be true, probable, or apparent
+
+Word        : lead
+Sentence    : Americans it seems have followed Malcolm Forbes 's hot-air lead and taken to ballooning in a heady way .
+Prediction 1: take somebody somewhere
+Gold       1: a position of leadership (especially in the phrase `take the lead')
+
+Word        : test
+Sentence    : During the past 25 years , the number of balloonists those who have passed a Federal Aviation Authority lighter-than-air test have swelled from a couple hundred to several thousand , with some estimates running as high as 10,000 .
+Prediction 1: the act of testing something
+Gold       1: a set of questions or exercises evaluating skill or knowledge
+
+Word        : run
+Sentence    : During the past 25 years , the number of balloonists those who have passed a Federal Aviation Authority lighter-than-air test have swelled from a couple hundred to several thousand , with some estimates running as high as 10,000 .
+Prediction 1: continue to exist
+Gold       1: change or be different within limits
+
+Word        : deny
+Sentence    : The condom balloon was denied official entry status this year .
+Prediction 1: refuse to accept or believe
+Gold       1: refuse to grant, as of a petition or request
+
+Word        : hold
+Sentence    : Ballooning at the de rigueur hour of 6 a.m. held all the attraction for most people of sunrise root-canal work .
+Prediction 1: contain or hold; have within
+Gold       1: have as a major characteristic
+
+Word        : say
+Sentence    : I still say do n't look down .
+Prediction 1: report or maintain
+Gold       1: state as one's opinion or judgement; declare
+
+Word        : go
+Sentence    : What they wo n't tell you is not to go aloft in anything you do n't want to get wet .
+Prediction 1: change location; move, travel, or proceed, also metaphorically
+Gold       1: enter or assume a certain state or condition
+
+Word        : begin
+Sentence    : To wit , my maiden voyage and novitiates are referred to as virgins began at dawn on a dew-sodden fairway and ended at noon in a soggy field .
+Prediction 1: have a beginning, in a temporal, spatial, or evaluative sense
+Gold       1: have a beginning, of a temporal event
+
+Word        : come
+Sentence    : In between came lots of coffee drinking while watching the balloons inflate and lots of standing around deciding who would fly in what balloon and in what order the baskets hold no more than four passengers .
+Prediction 1: be found or available
+Gold       1: exist or occur in a certain point in a series
+
+Word        : hold
+Sentence    : In between came lots of coffee drinking while watching the balloons inflate and lots of standing around deciding who would fly in what balloon and in what order the baskets hold no more than four passengers .
+Prediction 1: contain or hold; have within
+Gold       1: be capable of holding or containing
+
+Word        : follow
+Sentence    : When it was n't my turn in the balloon I followed its progress from the `` chase car , `` listening to the driver holler into a walkie-talkie .
+Prediction 1: imitate in behavior; take as a model
+Gold       1: follow, discover, or ascertain the course of development of something
+
+Word        : squint
+Sentence    : Eventually little French farmers and their little French farmwives came out of their stone houses and put their hands above their tiny eyes and squinted at us .
+Prediction 1: cross one's eyes as if in strabismus
+Gold       1: partly close one's eyes, as when hit by direct blinding light
+
+Word        : see
+Sentence    : See , the other rule of thumb about ballooning is that you ca n't steer .
+Prediction 1: see and understand, have a good eye
+Gold       1: perceive (an idea or situation) mentally
+
+Word        : ride
+Sentence    : You can go only up or down by heating the balloon 's air with a propane burner , which does make the top of your head feel hot and ride the air currents .
+Prediction 1: lie moored or anchored
+Gold       1: be sustained or supported or borne
+
+Word        : current
+Sentence    : You can go only up or down by heating the balloon 's air with a propane burner , which does make the top of your head feel hot and ride the air currents .
+Prediction 1: a flow of electricity through a conductor
+Gold       1: a steady flow of a fluid (usually from natural causes)
+
+Word        : companion
+Sentence    : `` What 's he doing ? `` hissed my companion , who was the only other English-speaking member of the convention and whose knuckles were white .
+Prediction 1: a friend who is frequently in the company of another
+Gold       1: a traveler who accompanies you
+
+Word        : plunge
+Sentence    : `` Attention , `` yelled our pilot as our basket plunged into the canal .
+Prediction 1: thrust or throw into
+Gold       1: fall abruptly
+
+Word        : drive
+Sentence    : Back in the chase car , we drove around some more , got stuck in a ditch , enlisted the aid of a local farmer to get out the trailer hitch and pull us out of the ditch .
+Prediction 1: operate or control a vehicle
+Gold       1: travel or be transported in a vehicle
+
+Word        : pull_out
+Sentence    : Back in the chase car , we drove around some more , got stuck in a ditch , enlisted the aid of a local farmer to get out the trailer hitch and pull us out of the ditch .
+Prediction 1: bring, take, or pull out of a container or from under a cover
+Gold       1: remove, usually with some force or effort; also used in an abstract sense
+
+Word        : roll_up
+Sentence    : We finally rendezvoused with our balloon , which had come to rest on a dirt road amid a clutch of Epinalers who watched us disassemble our craft -- another half-an-hour of non-flight activity -- that included the precision routine of yanking the balloon to the ground , punching all the air out of it , rolling it up and cramming it and the basket into the trailer .
+Prediction 1: close (a car window) by causing it to move up, as with a handle
+Gold       1: make into a bundle
+
+Word        : follow
+Sentence    : It was the most exercise we 'd had all morning and it was followed by our driving immediately to the nearest watering hole .
+Prediction 1: be later in time
+Gold       1: come after in time, as a result
+
+Word        : drive
+Sentence    : It was the most exercise we 'd had all morning and it was followed by our driving immediately to the nearest watering hole .
+Prediction 1: the act of driving a herd of animals overland
+Gold       1: travel or be transported in a vehicle
+
+Word        : mean
+Sentence    : This meant returning to the golf course , where we watched a few French duffers maul the first tee while we sat under Cinzano umbrellas , me nursing an espresso and my ego .
+Prediction 1: denote or connote
+Gold       1: have as a logical consequence
+
+Word        : resist
+Sentence    : As we streaked by a blase gendarme , I could n't resist rearing up on my soggy loafers and saluting .
+Prediction 1: elude, especially in a baffling way
+Gold       1: stand up or offer resistance to somebody or something
+
+Word        : salute
+Sentence    : As we streaked by a blase gendarme , I could n't resist rearing up on my soggy loafers and saluting .
+Prediction 1: greet in a friendly way
+Gold       1: recognize with a gesture prescribed by a military regulation; assume a prescribed position
+
+Precision 80.21978021978022
+Recall 80.21978021978022
+F1-score 80.21978021978022
