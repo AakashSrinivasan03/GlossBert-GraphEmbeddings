@@ -1,5 +1,5 @@
 # coding=utf-8
-
+#
 """BERT finetuning runner."""
 
 from __future__ import absolute_import, division, print_function
@@ -536,13 +536,18 @@ def main():
         contextualized_embeddings[l:h] = sentence_embeddings
         labels[l:h] = label_ids.cpu()
         l = h
+        #if(step>10):
+	#        break
 
 
 
     print(contextualized_embeddings.shape)
     print(labels.shape)
+    np.save("contextualized_embeddings.npy",contextualized_embeddings)
+    np.save("labels.npy",labels)
+    np.save("synsets.npy",synsets)
     d = {'embeddings':contextualized_embeddings,'labels':labels,'synsets':synsets}
-    np.save(os.path.join(args.output_dir,args.file_name), d)
+    ###np.save(os.path.join(args.output_dir,args.file_name), d, protocol=4)
 
                 
                 

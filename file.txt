@@ -1,0 +1,164 @@
+semeval2013_1
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(11388,)
+accuracy 0.9141201264488936
+Precision 73.90510948905109
+Recall 73.90510948905109
+F1-score 73.90510948905109
+semeval2013_2
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(11388,)
+accuracy 0.9177204074464348
+Precision 74.93917274939173
+Recall 74.93917274939173
+F1-score 74.93917274939173
+semeval2013_3
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(11388,)
+accuracy 0.9178960309097295
+Precision 75.0
+Recall 75.0
+F1-score 75.0
+semeval2013_4
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(11388,)
+accuracy 0.9163154197400772
+Precision 75.06082725060827
+Recall 75.06082725060827
+F1-score 75.06082725060827
+semeval2015_1
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(7777,)
+accuracy 0.9128198534139128
+Precision 77.49510763209393
+Recall 77.49510763209393
+F1-score 77.49510763209393
+semeval2015_2
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(7777,)
+accuracy 0.9108910891089109
+Precision 77.69080234833659
+Recall 77.69080234833659
+F1-score 77.69080234833659
+semeval2015_3
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(7777,)
+accuracy 0.912048347691912
+Precision 77.49510763209393
+Recall 77.49510763209393
+F1-score 77.49510763209393
+semeval2015_4
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(7777,)
+accuracy 0.9135913591359136
+Precision 77.29941291585128
+Recall 77.29941291585128
+F1-score 77.29941291585128
+senseval2_1
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(16636,)
+accuracy 0.923419091127675
+Precision 76.29272567922875
+Recall 76.29272567922875
+F1-score 76.29272567922875
+senseval2_2
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(16636,)
+accuracy 0.9263645106996874
+Precision 76.07361963190185
+Recall 76.07361963190185
+F1-score 76.07361963190185
+senseval2_3
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(16636,)
+accuracy 0.9248016350084155
+Precision 76.20508326029798
+Recall 76.20508326029798
+F1-score 76.20508326029798
+senseval2_4
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(16636,)
+accuracy 0.9243808607838423
+Precision 76.1612620508326
+Recall 76.1612620508326
+F1-score 76.1612620508326
+senseval3_1
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(17234,)
+accuracy 0.9376813276082163
+Precision 74.5945945945946
+Recall 74.5945945945946
+F1-score 74.5945945945946
+senseval3_2
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(17234,)
+accuracy 0.9390158988046884
+Precision 74.70270270270271
+Recall 74.70270270270271
+F1-score 74.70270270270271
+senseval3_3
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(17234,)
+accuracy 0.9386097249622839
+Precision 73.94594594594595
+Recall 73.94594594594595
+F1-score 73.94594594594595
+senseval3_4
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(17234,)
+accuracy 0.93814552628525
+Precision 74.70270270270271
+Recall 74.70270270270271
+F1-score 74.70270270270271
+_1
+_2
+_3
+_4

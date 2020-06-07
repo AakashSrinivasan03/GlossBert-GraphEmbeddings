@@ -1,0 +1,26 @@
+05/02/2020 19:21:21 - INFO - __main__ -   device: cuda n_gpu: 1, distributed training: False, 16-bits training: False
+05/02/2020 19:21:21 - INFO - tokenization -   loading vocabulary file bert-model/pretrained_model/vocab.txt
+Traceback (most recent call last):
+  File "wsd_sent_embeddings.py", line 557, in <module>
+    main()
+  File "wsd_sent_embeddings.py", line 434, in main
+    train_examples = processor.get_train_examples(args.train_data_dir)
+  File "wsd_sent_embeddings.py", line 107, in get_train_examples
+    train_data = pd.read_csv(data_dir, sep="\t", na_filter=False).values
+  File "/opt/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 685, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/opt/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 463, in _read
+    data = parser.read(nrows)
+  File "/opt/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 1154, in read
+    ret = self._engine.read(nrows)
+  File "/opt/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 2059, in read
+    data = self._reader.read(nrows)
+  File "pandas/_libs/parsers.pyx", line 881, in pandas._libs.parsers.TextReader.read
+  File "pandas/_libs/parsers.pyx", line 896, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas/_libs/parsers.pyx", line 973, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1105, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1151, in pandas._libs.parsers.TextReader._convert_tokens
+  File "pandas/_libs/parsers.pyx", line 1197, in pandas._libs.parsers.TextReader._convert_with_dtype
+  File "/opt/anaconda3/lib/python3.7/site-packages/pandas/core/dtypes/common.py", line 678, in is_categorical_dtype
+    def is_categorical_dtype(arr_or_dtype):
+KeyboardInterrupt

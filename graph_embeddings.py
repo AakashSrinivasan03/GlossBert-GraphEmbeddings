@@ -16,7 +16,7 @@ class Graph(object):
     def load(self, location):
         embeddings_index = {}
         f = open(location, 'r', encoding='utf-8')
-        for line in tqdm(f):
+        for line in f:
             values = line.rstrip().rsplit(' ')
             word = values[0]
             coefs = np.asarray(values[1:], dtype='float32')
@@ -49,3 +49,4 @@ class Graph(object):
         output['node_2_idx'] = name_to_index
         output['idx_2_node'] = index_to_name
         return output
+
