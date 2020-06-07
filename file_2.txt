@@ -1,0 +1,40 @@
+semeval2007_1
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(4986,)
+accuracy 0.9420377055756117
+Precision 70.98901098901099
+Recall 70.98901098901099
+F1-score 70.98901098901099
+semeval2007_2
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(4986,)
+accuracy 0.9442438828720418
+Precision 70.54945054945055
+Recall 70.54945054945055
+F1-score 70.54945054945055
+semeval2007_3
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(4986,)
+accuracy 0.9438427597272363
+Precision 71.64835164835165
+Recall 71.64835164835165
+F1-score 71.64835164835165
+semeval2007_4
+device cpu n_gpu 0
+found 117660 word vectors
+loaded BERT embeddings
+loaded BERT embeddings
+(4986,)
+accuracy 0.9422382671480144
+Precision 70.32967032967034
+Recall 70.32967032967034
+F1-score 70.32967032967034

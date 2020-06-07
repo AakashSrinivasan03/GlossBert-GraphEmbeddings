@@ -1,0 +1,1 @@
+python projection.py --embeddings_data_dir combined.npy --dataset semcor --do_train --out_results_dir results/projection --model_type Projection --graph_embeddings_loc ./deepwalk_graph/wn_hypernym_3_final.vec

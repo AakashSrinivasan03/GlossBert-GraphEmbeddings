@@ -1,3 +1,12 @@
+deepwalk_graph/wn_*
+deepwalk_graph/nodes.pkl
+deepwalk_graph/shit.py
+deepwalk_graph/wordnet_hypernym.adjlist
+deepwalk_graph/deepwalk-master
+dataset_with_sampling
+VERSE/
+combined.npy
+*.npy
 results/
 bert-model/
 Training_Corpora/
